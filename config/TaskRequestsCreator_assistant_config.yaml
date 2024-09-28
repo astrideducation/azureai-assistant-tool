@@ -25,8 +25,8 @@ instructions: |-
     - Forming the list of requests will produce output:
       ["Please review the ./folder1/input1.py file and suggest improvements.", "Please review the ./folder2/input2.py file and suggest improvements."]
   4. The end result must be always valid list, e.g. ["formatted user request1", "formatted user request2"], otherwise result is considered as failure.
-model: ''
-assistant_id: null
+model: gpt-4o
+assistant_id: 699bb4a4-72ca-482c-8bc8-6683c36d9d72
 functions:
 - type: function
   function:
@@ -55,3 +55,4 @@ file_references: []
 completion_settings: null
 tool_resources: null
 file_search: false
+config_folder: null

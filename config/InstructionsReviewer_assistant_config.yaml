@@ -17,8 +17,8 @@ instructions: |-
   - Lists identified gaps or discrepancies in the instructions.
   - Provides recommendations on how to revise the instructions to meet the requirements.
   - Suggests examples that could enhance the clarity and completeness of the instructions.
-model: ''
-assistant_id: null
+model: gpt-4o
+assistant_id: 3d0472c8-ec6b-432d-9ba0-71f66d430b54
 code_interpreter: false
 output_folder_path: ''
 ai_client_type: AZURE_OPEN_AI
@@ -29,3 +29,4 @@ completion_settings: null
 tool_resources: null
 file_search: false
 functions: []
+config_folder: null

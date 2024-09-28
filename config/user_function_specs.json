@@ -1,0 +1,34 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_highlights",
+            "module": "functions.user_functions",
+            "description": "Get the sales highlights of a user over a period of time",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The whole identification of the user in the form @[username](user_id)"
+                    },
+                    "start_date": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "The starting date to fetch information from. The current date is considered  when extracting the starting date."
+                    },
+                    "end_date": {
+                        "type": "string",
+                        "format": "date",
+                        "description": "The ending date to fetch information from. The current date is ocnsidered when extracting the ending date. The ending date can't be after the current date since we are insterested in past periods."
+                    }
+                },
+                "required": [
+                    "name",
+                    "start_date",
+                    "end_date"
+                ]
+            }
+        }
+    }
+]

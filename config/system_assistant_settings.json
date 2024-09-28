@@ -1,0 +1,5 @@
+{
+    "ai_client_type": "AZURE_OPEN_AI",
+    "model": "gpt-4o",
+    "api_version": "2024-02-15-preview"
+}

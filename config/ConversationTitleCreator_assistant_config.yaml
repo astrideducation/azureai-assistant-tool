@@ -6,8 +6,8 @@ instructions: |-
   ## Requirements
   1. You are required to create title of given text by finding the overall theme.
   2. The end result(title) must be only 3 words long at max. Returning more than 3 words will be a failure.
-model: ''
-assistant_id: null
+model: gpt-4o
+assistant_id: a4e83892-b916-4ac0-aeb5-fb594012670d
 functions: []
 code_interpreter: false
 output_folder_path: ''
@@ -18,3 +18,4 @@ file_references: []
 completion_settings: null
 tool_resources: null
 file_search: false
+config_folder: null

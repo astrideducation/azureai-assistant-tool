@@ -28,8 +28,8 @@ instructions: |-
     Sure, here are some general suggestions for what you could do today. Let me know what interests you on these options or
     give me some other context where I could provide more tailored suggestions.
     """
-model: ''
-assistant_id: null
+model: gpt-4o
+assistant_id: cb399830-c062-490a-9cea-2806a78edd8b
 code_interpreter: false
 output_folder_path: ''
 ai_client_type: AZURE_OPEN_AI
@@ -40,3 +40,4 @@ completion_settings: null
 tool_resources: null
 file_search: false
 functions: []
+config_folder: null

@@ -35,8 +35,8 @@ instructions: |-
   6. The function name must follow the snake case format.
   7. The module value must not be changed from what is in the template.
   8. The end result must not contain triple backtics, otherwise, it is considered a failure.
-model: ''
-assistant_id: null
+model: gpt-4o
+assistant_id: 77dd1577-6921-4d41-9adb-5a450b362aab
 code_interpreter: false
 output_folder_path: ''
 ai_client_type: AZURE_OPEN_AI
@@ -47,3 +47,4 @@ completion_settings: null
 tool_resources: null
 file_search: false
 functions: []
+config_folder: null

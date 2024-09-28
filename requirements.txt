@@ -9,3 +9,6 @@ azure-cognitiveservices-speech
 
 # Beautiful Soup
 beautifulsoup4
+
+# Pytohn dotenv
+python-dotenv==1.0.1

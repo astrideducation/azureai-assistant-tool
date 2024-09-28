@@ -16,7 +16,7 @@ instructions: |-
     - `#o1-preview` for forcing the `get_openai_chat_completion` function based `o1-preview` model response for prompt
   6. If user provided image as input, you shall convert the image to text and use the text as prompt for LLM model.
 model: gpt-4o
-assistant_id: 
+assistant_id: null
 file_references: []
 tool_resources:
   code_interpreter:

@@ -1,0 +1,13 @@
+{
+    "AZURE_OPEN_AI": {
+        "threads": [
+            {
+                "thread_id": "thread_ZoDrERHZC1sgOYFoHn0SURQ4",
+                "thread_name": "New Thread"
+            }
+        ]
+    },
+    "OPEN_AI": {
+        "threads": []
+    }
+}

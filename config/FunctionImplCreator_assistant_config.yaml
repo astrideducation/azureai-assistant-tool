@@ -30,8 +30,8 @@ instructions: |-
   6. Ensure your function handles errors gracefully and returns a clear error message in case of exceptions.
   7. Ensure function returns result using json.dumps() and where "result" is key and its value is the result.
   8. The end result must be only code and must not contain triple backtics, otherwise, it is considered a failure.
-model: ''
-assistant_id: null
+model: gpt-4o
+assistant_id: c003f98b-f7f5-4039-be71-7003be74635d
 code_interpreter: false
 output_folder_path: ''
 ai_client_type: AZURE_OPEN_AI
@@ -42,3 +42,4 @@ completion_settings: null
 tool_resources: null
 file_search: false
 functions: []
+config_folder: null
