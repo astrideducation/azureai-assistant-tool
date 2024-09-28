@@ -66,7 +66,7 @@ setup(
         "openai>=1.23.2",
         "python-Levenshtein>=0.20.0,<=0.23.0",
         "fuzzywuzzy>=0.17.0,<=0.18.0",
-        "Pillow>=10.1.0,<=10.2.0",
+        "Pillow>=10.1.0,<=10.4.0",
         "PyYAML>=5.3, <=6.0.1",
     ],
     python_requires=">=3.8",
